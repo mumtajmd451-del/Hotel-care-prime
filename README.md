@@ -1,52 +1,87 @@
-# Hotel-Management-System
+# Hotel Care Prime – Digital Hotel Management System
 
-Simple hotel booking website with content management system. Users can book rooms for specific dates. Admin can create, update, and delete room details. Admin can manage everything in the app.
+Hotel Care Prime is a web-based hotel booking and management system. 
+Users can book rooms for specific dates, while administrators can manage 
+rooms, bookings, payments, and staff through an admin dashboard.
+## Demo
+Project demo will be added soon.
 
-## Video
-<!--<a href="https://www.youtube.com/watch?v=rKwBxxVXWkM">click here..</a>-->
-https://github.com/tushar-2223/Hotel-Management-System/assets/87109400/08742fd7-5e7b-4459-90ef-c4e6b3e0cabd
+## Tech Stack
 
-## Tech Stack 
+- HTML5
+- CSS3
+- JavaScript
+- PHP
+- Bootstrap
+- MySQL
+- Docker
 
-```sh
-HTML
-CSS
-JAVASCRIPT
-PHP
-BOOTSTRAP 
-```
+## Requirements
 
-## Requirements Windows:
+Before running the project make sure the following tools are installed:
 
-```sh
-1 Download & Install: XAMPP in C:\xampp (default)
-2 Clone this repository in C:\xampp\htdocs
-3 Run XAMPP and start "Apache" and "MySQL"
-4 Open the link "localhost/phpmyadmin/"
-5 Click on new at sidebar and create a database name "hotelcareprime"
-After clicking database click import and select the file "hotelcareprime.sql"
-Open the link "http://localhost/Hotel-Management-System/"
-Now register and login
-```
+- Docker
+2-Docker Compose
+- Git (optional)
+4-Web Browser (Chrome / Edge / Firefox)
 
-## Requirements Linux[Rocky Linux 9]:
+## Run with Docker
 
-```sh
-1 Install dnf package manager
-2 Clone this repository in your home directory
-3 Enable execute permissions on setup.sh `chmod 755 setup.sh`
-4 Login as root or use `sudo su - root`
-5 Run setup.sh `./setup.sh`
-Open the link "http://localhost/Hotel-Management-System/"
-Now register and login
-```
+1 Clone or download this repository
 
+2 Navigate to the project directory
 
-### login page
+3 Run the following command:
 
-```sh
-== Staff Login ==
+docker compose up --build
 
-Email : Admin@gmail.com
-Password : 1234
-```
+4 Open the project in your browser:
+
+http://localhost:8081
+
+The application and database will automatically start using Docker containers.
+
+## Alternative Setup (XAMPP)
+
+1 Install XAMPP (Apache + MySQL)
+
+2 Move the project folder to:
+
+C:\xampp\htdocs\Hotel-Management-System
+
+3 Start Apache and MySQL from XAMPP Control Panel
+
+4 Open phpMyAdmin:
+
+http://localhost/phpmyadmin
+
+5 Create database:
+
+hotelcareprime_db
+
+6 Import the file:
+
+Hotelcareprime.sql
+
+7 Open the project:
+
+http://localhost/Hotel-Management-System/
+
+## Features
+
+- User Registration and Login
+- Online Room Booking
+- Admin Dashboard
+- Room Management
+- Staff Management
+- Booking Management
+- Invoice Generation
+- Payment Status Tracking   
+
+## Admin Login
+
+Email: Admin@gmail.com  
+Password: 1234
+## Author
+
+Developed by **Mumtaj Md**

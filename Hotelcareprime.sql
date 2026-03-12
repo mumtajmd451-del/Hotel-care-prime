@@ -19,8 +19,8 @@ SET time_zone = "+00:00";
 
 --
 -- Database: `hotelcareprime`
--- User: `bluebird_user`
--- Password:   `password`
+-- Database User: hotel_user
+-- Database Password: password
 --
 DROP DATABASE IF EXISTS hotelcareprime;
 CREATE DATABASE IF NOT EXISTS hotelcareprime;

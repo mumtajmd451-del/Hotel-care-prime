@@ -35,4 +35,5 @@ cp -r $DIR /var/www/html/
 # restart apache
 systemctl restart httpd
 
-echo "View project at: http://localhost:80/Hotel-Management-System/index.php"
+echo "Open the project in your browser:"
+echo "http://localhost/Hotel-Care-Prime/"
