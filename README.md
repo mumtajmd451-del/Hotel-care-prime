@@ -47,7 +47,7 @@ The application and database will automatically start using Docker containers.
 
 2 Move the project folder to:
 
-C:\xampp\htdocs\Hotel-Management-System
+C:\xampp\htdocs\Hotel-Care-Prime
 
 3 Start Apache and MySQL from XAMPP Control Panel
 
@@ -65,7 +65,7 @@ Hotelcareprime.sql
 
 7 Open the project:
 
-http://localhost/Hotel-Management-System/
+http://localhost:8081
 
 ## Features
 
